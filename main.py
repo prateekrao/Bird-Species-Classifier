@@ -4,8 +4,6 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 from PIL import Image
-import matplotlib.pyplot as plt
-from matplotlib.pyplot import imshow
 
 model = load_model("/Users/r_prateek/Desktop/Birds-Class/birds.h5")
 
