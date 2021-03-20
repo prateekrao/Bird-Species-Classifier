@@ -24,7 +24,7 @@ train_data = datagen.flow_from_directory(
 ci = train_data.class_indices
 classes = {v: k for k, v in ci.items()}
 
-path = input('Please enter path of image of bird to classify')
+path = input('Please enter path of image of bird to classify: \n')
 
 inp = Image.open(path)
 img = inp.resize((224,224))
