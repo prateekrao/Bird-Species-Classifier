@@ -48,6 +48,12 @@ Data has been scaled down to 224 x 224, in order to have uniformity and ease whi
 * BatchNormalization to reduce overfitting
 * Data Augmentation is used to increase size of dataset, to obtain a more comprehensive data, to us layer.
 
+# Accuracy Results
 
+At the last epoch:
   
-  
+  Training Accuracy | Validation Accuracy
+  ------------------|---------------------
+  88.76%            | 94.48%
+
+
