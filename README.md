@@ -1,6 +1,6 @@
 # Bird-Species-Classifier
 
-Deep learning model to classify input of image of a bird to it's respective species.
+Deep learning model to classify input of image of a bird to the respective species., and return top 3 predictions for the input image
 
 # Introduction
 
