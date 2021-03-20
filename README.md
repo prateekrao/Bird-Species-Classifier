@@ -50,10 +50,41 @@ Data has been scaled down to 224 x 224, in order to have uniformity and ease whi
 
 # Accuracy Results
 
-At the last epoch:
+   At the last epoch:
   
-  Training Accuracy | Validation Accuracy
-  ------------------|---------------------
-  88.76%            | 94.48%
+   Training Accuracy | Validation Accuracy
+   ------------------|---------------------
+   88.76%            | 94.48%
 
+# Graphs
+
+* Usage of ```matplotliob.pyplot```
+* Graph that plots **Accuracy vs Epochs**
+
+Accuracy Graph: 
+
+![Unknown](https://user-images.githubusercontent.com/73730958/111886207-7e5c4800-89f2-11eb-95ec-eacafc8cad71.png)
+
+* Graph that plots **Loss vs Epochs**
+
+Loss Graph: 
+
+![Unknown](https://user-images.githubusercontent.com/73730958/111886239-aa77c900-89f2-11eb-8db7-d0117711f038.png)
+
+* As can be made out from the graph, the model is not overfitting, and has a great accuracy.
+
+# Usage
+
+* Run ```main.py```, input image of your choice.
+* The model will display top 3 predictions along with their probabilities.
+
+# Requirements
+
+***Libraries required are:***
+
+```
+tensorflow
+numpy
+PIL
+```
 
