@@ -99,4 +99,8 @@ The model accurately predicts with high confidence(99.97%) that the input image 
 
 https://drive.google.com/file/d/10cFkQABKTnY8CMduLNN8nJuAoHnW0OgC/view?usp=sharing
 
+Team:
+* Prateek Rao
+* Suraj Rao KP
+* Sundeep A
 
