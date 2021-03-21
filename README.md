@@ -73,11 +73,6 @@ Loss Graph:
 
 * As can be made out from the graph, the model is not overfitting, and has a great accuracy.
 
-# Usage
-
-* Run ```main.py```, input image of your choice.
-* The model will display top 3 predictions along with their probabilities.
-
 # Requirements
 
 ***Libraries required are:***
@@ -88,7 +83,17 @@ numpy
 PIL
 ```
 
+# Usage
+
+* Run ```main.py``` from the command line.
+* Input the path of the image when prompted.
+* The output will display the input image as well as the top 3 predictions with their respective probabilities.
+
 # Sample Execution
+
+![scs](https://user-images.githubusercontent.com/73730958/111894084-df554180-8a2d-11eb-9dc0-61e4e530af11.jpg)
+
+The model accurately predicts with high confidence(99.97%) that the input image is a bald eagle, and the other two top probabilities are negligible.
 
   
 
