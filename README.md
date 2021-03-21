@@ -95,6 +95,8 @@ PIL
 
 The model accurately predicts with high confidence(99.97%) that the input image is a bald eagle, and the other two top probabilities are negligible.
 
-  
+# Presentation Link
+
+https://drive.google.com/file/d/10cFkQABKTnY8CMduLNN8nJuAoHnW0OgC/view?usp=sharing
 
 
