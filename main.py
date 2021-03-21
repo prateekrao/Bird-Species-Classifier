@@ -15,8 +15,7 @@ datagen = ImageDataGenerator(
 
 train_data = datagen.flow_from_directory(
     train_path,
-    target_size = ((224,224)),
-   
+    target_size = ((224,224)), 
 )
 
 ci = train_data.class_indices
