@@ -5,9 +5,9 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import numpy as np
 from PIL import Image
 
-model = load_model("/Users/r_prateek/Desktop/Birds-Class/birds.h5")
+model = load_model("/Users/r_prateek/Bird-Species-Classifier/birds.h5")
 
-train_path = "/Users/r_prateek/Desktop/Birds-Class/birdspeciesdata/train"
+train_path = "/Users/r_prateek/Bird-Species-Classifier/birdspeciesdata/train"
 
 datagen = ImageDataGenerator(
     rescale = 1./255,
